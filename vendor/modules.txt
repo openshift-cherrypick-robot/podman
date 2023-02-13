@@ -68,7 +68,6 @@ github.com/containerd/containerd/errdefs
 github.com/containerd/containerd/log
 github.com/containerd/containerd/pkg/userns
 github.com/containerd/containerd/platforms
-github.com/containerd/containerd/sys
 # github.com/containerd/stargz-snapshotter/estargz v0.11.2
 github.com/containerd/stargz-snapshotter/estargz
 github.com/containerd/stargz-snapshotter/estargz/errorutil
@@ -326,7 +325,7 @@ github.com/docker/distribution/registry/client/auth/challenge
 github.com/docker/distribution/registry/client/transport
 github.com/docker/distribution/registry/storage/cache
 github.com/docker/distribution/registry/storage/cache/memory
-# github.com/docker/docker v20.10.13+incompatible
+# github.com/docker/docker v23.0.1+incompatible
 ## explicit
 github.com/docker/docker/api
 github.com/docker/docker/api/types
@@ -346,6 +345,7 @@ github.com/docker/docker/api/types/versions
 github.com/docker/docker/api/types/volume
 github.com/docker/docker/client
 github.com/docker/docker/errdefs
+github.com/docker/docker/libnetwork/ipamutils
 github.com/docker/docker/opts
 github.com/docker/docker/pkg/archive
 github.com/docker/docker/pkg/fileutils
@@ -377,7 +377,6 @@ github.com/docker/go-plugins-helpers/volume
 ## explicit
 github.com/docker/go-units
 # github.com/docker/libnetwork v0.8.0-dev.2.0.20190625141545-5a177b73e316
-github.com/docker/libnetwork/ipamutils
 github.com/docker/libnetwork/resolvconf
 github.com/docker/libnetwork/resolvconf/dns
 github.com/docker/libnetwork/types
@@ -484,10 +483,14 @@ github.com/miekg/pkcs11
 github.com/mistifyio/go-zfs
 # github.com/mitchellh/mapstructure v1.4.3
 github.com/mitchellh/mapstructure
-# github.com/moby/sys/mount v0.2.0
-github.com/moby/sys/mount
+# github.com/moby/patternmatcher v0.5.0
+## explicit
+github.com/moby/patternmatcher
 # github.com/moby/sys/mountinfo v0.6.0
 github.com/moby/sys/mountinfo
+# github.com/moby/sys/sequential v0.5.0
+## explicit
+github.com/moby/sys/sequential
 # github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6
 ## explicit
 github.com/moby/term
@@ -743,7 +746,7 @@ golang.org/x/net/trace
 ## explicit
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9
+# golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
 ## explicit
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
